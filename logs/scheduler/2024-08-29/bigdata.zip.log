@@ -1,0 +1,150 @@
+[2024-08-29T08:12:23.613+0000] {processor.py:186} INFO - Started process (PID=287) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T08:12:23.615+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T08:12:23.620+0000] {logging_mixin.py:190} INFO - [2024-08-29T08:12:23.619+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T08:12:23.748+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T08:12:23.772+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.170 seconds
+[2024-08-29T08:13:22.047+0000] {processor.py:186} INFO - Started process (PID=994) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T08:13:22.049+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T08:13:22.058+0000] {logging_mixin.py:190} INFO - [2024-08-29T08:13:22.057+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T08:13:22.220+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T08:13:22.245+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.225 seconds
+[2024-08-29T08:14:06.900+0000] {processor.py:186} INFO - Started process (PID=1048) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T08:14:06.901+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T08:14:06.908+0000] {logging_mixin.py:190} INFO - [2024-08-29T08:14:06.907+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T08:14:07.044+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T08:14:07.069+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.188 seconds
+[2024-08-29T08:14:48.277+0000] {processor.py:186} INFO - Started process (PID=1079) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T08:14:48.280+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T08:14:48.283+0000] {logging_mixin.py:190} INFO - [2024-08-29T08:14:48.282+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T08:14:48.389+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T08:14:48.406+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.135 seconds
+[2024-08-29T08:15:28.229+0000] {processor.py:186} INFO - Started process (PID=1105) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T08:15:28.230+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T08:15:28.234+0000] {logging_mixin.py:190} INFO - [2024-08-29T08:15:28.233+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T08:15:28.343+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T08:15:28.361+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.140 seconds
+[2024-08-29T08:16:05.451+0000] {processor.py:186} INFO - Started process (PID=1136) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T08:16:05.452+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T08:16:05.455+0000] {logging_mixin.py:190} INFO - [2024-08-29T08:16:05.455+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T08:16:05.558+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T08:16:05.576+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.133 seconds
+[2024-08-29T08:16:42.855+0000] {processor.py:186} INFO - Started process (PID=1162) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T08:16:42.856+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T08:16:42.860+0000] {logging_mixin.py:190} INFO - [2024-08-29T08:16:42.859+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T08:16:42.964+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T08:16:42.982+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.134 seconds
+[2024-08-29T08:17:21.479+0000] {processor.py:186} INFO - Started process (PID=1193) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T08:17:21.481+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T08:17:21.484+0000] {logging_mixin.py:190} INFO - [2024-08-29T08:17:21.483+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T08:17:21.583+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T08:17:21.600+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.129 seconds
+[2024-08-29T09:12:51.758+0000] {processor.py:186} INFO - Started process (PID=206) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:12:51.759+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T09:12:51.763+0000] {logging_mixin.py:190} INFO - [2024-08-29T09:12:51.762+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:12:51.860+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:12:51.877+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.126 seconds
+[2024-08-29T09:13:35.065+0000] {processor.py:186} INFO - Started process (PID=261) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:13:35.067+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T09:13:35.070+0000] {logging_mixin.py:190} INFO - [2024-08-29T09:13:35.070+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:13:35.182+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:13:35.201+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.144 seconds
+[2024-08-29T09:14:27.821+0000] {processor.py:186} INFO - Started process (PID=1109) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:14:27.824+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T09:14:27.832+0000] {logging_mixin.py:190} INFO - [2024-08-29T09:14:27.831+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:14:28.033+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:14:28.058+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.252 seconds
+[2024-08-29T09:15:36.163+0000] {processor.py:186} INFO - Started process (PID=1569) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:15:36.167+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T09:15:36.211+0000] {logging_mixin.py:190} INFO - [2024-08-29T09:15:36.207+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:15:36.858+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:15:36.961+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.887 seconds
+[2024-08-29T09:16:56.574+0000] {processor.py:186} INFO - Started process (PID=1602) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:16:56.577+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T09:16:56.583+0000] {logging_mixin.py:190} INFO - [2024-08-29T09:16:56.582+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:16:56.733+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:16:56.761+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.211 seconds
+[2024-08-29T09:18:21.853+0000] {processor.py:186} INFO - Started process (PID=1691) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:18:21.856+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T09:18:21.863+0000] {logging_mixin.py:190} INFO - [2024-08-29T09:18:21.862+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:18:21.979+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:18:21.999+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.158 seconds
+[2024-08-29T09:19:07.831+0000] {processor.py:186} INFO - Started process (PID=1717) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:19:07.833+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T09:19:07.836+0000] {logging_mixin.py:190} INFO - [2024-08-29T09:19:07.836+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:19:07.999+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:19:08.032+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.210 seconds
+[2024-08-29T09:19:51.271+0000] {processor.py:186} INFO - Started process (PID=1754) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:19:51.273+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T09:19:51.278+0000] {logging_mixin.py:190} INFO - [2024-08-29T09:19:51.278+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:19:51.473+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:19:51.503+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.249 seconds
+[2024-08-29T09:20:33.042+0000] {processor.py:186} INFO - Started process (PID=1780) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:20:33.044+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T09:20:33.068+0000] {logging_mixin.py:190} INFO - [2024-08-29T09:20:33.068+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:20:33.184+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:20:33.204+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.172 seconds
+[2024-08-29T09:21:11.485+0000] {processor.py:186} INFO - Started process (PID=1812) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:21:11.486+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T09:21:11.492+0000] {logging_mixin.py:190} INFO - [2024-08-29T09:21:11.491+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:21:11.623+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:21:11.642+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.167 seconds
+[2024-08-29T09:22:08.307+0000] {processor.py:186} INFO - Started process (PID=1995) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:22:08.309+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T09:22:08.314+0000] {logging_mixin.py:190} INFO - [2024-08-29T09:22:08.313+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:22:08.443+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:22:08.465+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.174 seconds
+[2024-08-29T09:23:24.041+0000] {processor.py:186} INFO - Started process (PID=2889) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:23:24.044+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T09:23:24.048+0000] {logging_mixin.py:190} INFO - [2024-08-29T09:23:24.047+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:23:24.231+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:23:24.257+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.227 seconds
+[2024-08-29T09:24:25.796+0000] {processor.py:186} INFO - Started process (PID=3180) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:24:25.800+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T09:24:25.847+0000] {logging_mixin.py:190} INFO - [2024-08-29T09:24:25.839+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:24:25.985+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:24:26.082+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.347 seconds
+[2024-08-29T09:25:08.804+0000] {processor.py:186} INFO - Started process (PID=3252) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:25:08.805+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T09:25:08.809+0000] {logging_mixin.py:190} INFO - [2024-08-29T09:25:08.809+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:25:08.931+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:25:08.951+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.155 seconds
+[2024-08-29T09:25:51.625+0000] {processor.py:186} INFO - Started process (PID=3284) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:25:51.627+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T09:25:51.630+0000] {logging_mixin.py:190} INFO - [2024-08-29T09:25:51.630+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:25:51.741+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:25:51.759+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.142 seconds
+[2024-08-29T09:26:33.818+0000] {processor.py:186} INFO - Started process (PID=3310) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:26:33.820+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T09:26:33.824+0000] {logging_mixin.py:190} INFO - [2024-08-29T09:26:33.823+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:26:33.925+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:26:33.944+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.133 seconds
+[2024-08-29T09:27:16.205+0000] {processor.py:186} INFO - Started process (PID=3341) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:27:16.207+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T09:27:16.212+0000] {logging_mixin.py:190} INFO - [2024-08-29T09:27:16.212+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:27:16.340+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:27:16.359+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.165 seconds
+[2024-08-29T09:27:58.527+0000] {processor.py:186} INFO - Started process (PID=3373) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:27:58.531+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T09:27:58.540+0000] {logging_mixin.py:190} INFO - [2024-08-29T09:27:58.539+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:27:58.806+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:27:58.934+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.441 seconds
+[2024-08-29T09:29:03.187+0000] {processor.py:186} INFO - Started process (PID=3608) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:29:03.190+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T09:29:03.204+0000] {logging_mixin.py:190} INFO - [2024-08-29T09:29:03.203+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:29:03.378+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:29:03.417+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.255 seconds
+[2024-08-29T09:30:02.606+0000] {processor.py:186} INFO - Started process (PID=4590) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:30:02.614+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T09:30:02.621+0000] {logging_mixin.py:190} INFO - [2024-08-29T09:30:02.619+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:30:02.865+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:30:02.891+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.300 seconds
+[2024-08-29T09:31:00.045+0000] {processor.py:186} INFO - Started process (PID=4743) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:31:00.048+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T09:31:00.055+0000] {logging_mixin.py:190} INFO - [2024-08-29T09:31:00.055+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:31:00.174+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:31:00.195+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.163 seconds
+[2024-08-29T09:31:47.456+0000] {processor.py:186} INFO - Started process (PID=4810) to work on /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:31:47.458+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bigdata.zip for tasks to queue
+[2024-08-29T09:31:47.466+0000] {logging_mixin.py:190} INFO - [2024-08-29T09:31:47.465+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:31:47.574+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.zip
+[2024-08-29T09:31:47.592+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bigdata.zip took 0.155 seconds

@@ -1,0 +1,681 @@
+[2024-08-26T10:34:24.042+0000] {processor.py:186} INFO - Started process (PID=48) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T10:34:24.050+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T10:34:24.071+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:34:24.070+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:34:24.170+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:34:24.359+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:34:24.358+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:34:24.607+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:34:24.607+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T10:34:24.717+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.690 seconds
+[2024-08-26T10:35:10.367+0000] {processor.py:186} INFO - Started process (PID=114) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T10:35:10.373+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T10:35:10.386+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:35:10.385+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:35:10.417+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:35:10.464+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:35:10.464+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:35:10.497+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:35:10.496+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T10:35:10.534+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.193 seconds
+[2024-08-26T10:35:41.504+0000] {processor.py:186} INFO - Started process (PID=180) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T10:35:41.505+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T10:35:41.507+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:35:41.507+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:35:41.525+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:35:41.551+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:35:41.551+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:35:41.569+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:35:41.569+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T10:35:41.589+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.093 seconds
+[2024-08-26T10:37:46.977+0000] {processor.py:186} INFO - Started process (PID=41) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T10:37:46.980+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T10:37:46.988+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:37:46.987+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:37:47.040+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:37:47.103+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:37:47.103+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:37:47.133+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:37:47.133+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T10:37:47.176+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.215 seconds
+[2024-08-26T10:38:29.132+0000] {processor.py:186} INFO - Started process (PID=114) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T10:38:29.134+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T10:38:29.139+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:38:29.139+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:38:29.166+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:38:29.215+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:38:29.215+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:38:29.241+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:38:29.241+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T10:38:29.275+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.153 seconds
+[2024-08-26T10:39:10.632+0000] {processor.py:186} INFO - Started process (PID=180) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T10:39:10.639+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T10:39:10.643+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:39:10.642+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:39:10.659+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:39:10.710+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:39:10.709+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:39:10.735+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:39:10.735+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T10:39:10.802+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.179 seconds
+[2024-08-26T10:39:48.420+0000] {processor.py:186} INFO - Started process (PID=247) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T10:39:48.422+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T10:39:48.426+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:39:48.426+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:39:48.444+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:39:48.477+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:39:48.477+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:39:48.499+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:39:48.498+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T10:39:48.523+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.112 seconds
+[2024-08-26T10:40:27.521+0000] {processor.py:186} INFO - Started process (PID=315) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T10:40:27.524+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T10:40:27.529+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:40:27.528+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:40:27.549+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:40:27.586+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:40:27.585+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:40:27.606+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:40:27.605+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T10:40:27.628+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.117 seconds
+[2024-08-26T10:40:58.195+0000] {processor.py:186} INFO - Started process (PID=381) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T10:40:58.197+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T10:40:58.205+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:40:58.204+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:40:58.222+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:40:58.252+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:40:58.252+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:40:58.271+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:40:58.271+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T10:40:58.297+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.113 seconds
+[2024-08-26T10:41:28.447+0000] {processor.py:186} INFO - Started process (PID=446) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T10:41:28.449+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T10:41:28.452+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:41:28.451+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:41:28.466+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:41:28.494+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:41:28.494+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:41:28.513+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:41:28.512+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T10:41:28.535+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.096 seconds
+[2024-08-26T10:42:10.394+0000] {processor.py:186} INFO - Started process (PID=519) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T10:42:10.396+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T10:42:10.399+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:42:10.399+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:42:10.416+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:42:10.446+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:42:10.446+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:42:10.467+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:42:10.467+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T10:42:10.492+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.109 seconds
+[2024-08-26T10:42:53.301+0000] {processor.py:186} INFO - Started process (PID=557) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T10:42:53.303+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T10:42:53.305+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:42:53.304+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:42:53.320+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:42:53.354+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:42:53.354+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:42:53.376+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:42:53.376+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T10:42:53.402+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.110 seconds
+[2024-08-26T10:43:32.521+0000] {processor.py:186} INFO - Started process (PID=604) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T10:43:32.528+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T10:43:32.532+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:43:32.530+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:43:32.561+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:43:32.612+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:43:32.612+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:43:32.634+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:43:32.634+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T10:43:32.683+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.180 seconds
+[2024-08-26T10:44:02.769+0000] {processor.py:186} INFO - Started process (PID=665) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T10:44:02.770+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T10:44:02.773+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:44:02.772+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:44:02.790+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:44:02.831+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:44:02.831+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:44:02.857+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:44:02.857+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T10:44:02.888+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.128 seconds
+[2024-08-26T10:44:41.561+0000] {processor.py:186} INFO - Started process (PID=737) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T10:44:41.563+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T10:44:41.565+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:44:41.565+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:44:41.583+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:44:41.620+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:44:41.620+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:44:41.644+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:44:41.643+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T10:44:41.674+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.122 seconds
+[2024-08-26T10:45:20.488+0000] {processor.py:186} INFO - Started process (PID=812) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T10:45:20.490+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T10:45:20.495+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:45:20.493+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:45:20.528+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:45:20.567+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:45:20.566+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:45:20.597+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:45:20.596+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T10:45:20.629+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.153 seconds
+[2024-08-26T10:46:01.496+0000] {processor.py:186} INFO - Started process (PID=879) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T10:46:01.497+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T10:46:01.498+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:46:01.498+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:46:01.513+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:46:01.551+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:46:01.551+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:46:01.573+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:46:01.573+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T10:46:01.599+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.113 seconds
+[2024-08-26T10:46:32.517+0000] {processor.py:186} INFO - Started process (PID=945) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T10:46:32.519+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T10:46:32.520+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:46:32.520+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:46:32.535+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:46:32.566+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:46:32.565+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:46:32.585+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:46:32.584+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T10:46:32.608+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.099 seconds
+[2024-08-26T10:47:02.669+0000] {processor.py:186} INFO - Started process (PID=1017) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T10:47:02.671+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T10:47:02.675+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:47:02.674+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:47:02.716+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:47:02.778+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:47:02.777+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:47:02.814+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:47:02.813+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T10:47:02.856+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.201 seconds
+[2024-08-26T10:47:39.567+0000] {processor.py:186} INFO - Started process (PID=1038) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T10:47:39.569+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T10:47:39.572+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:47:39.571+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:47:39.592+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:47:39.632+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:47:39.632+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:47:39.657+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:47:39.657+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T10:47:39.693+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.135 seconds
+[2024-08-26T10:48:10.355+0000] {processor.py:186} INFO - Started process (PID=1100) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T10:48:10.357+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T10:48:10.359+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:48:10.359+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:48:10.374+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:48:10.406+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:48:10.406+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:48:10.426+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:48:10.426+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T10:48:10.450+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.103 seconds
+[2024-08-26T10:48:49.268+0000] {processor.py:186} INFO - Started process (PID=1175) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T10:48:49.271+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T10:48:49.274+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:48:49.273+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:48:49.295+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:48:49.335+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:48:49.334+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:48:49.358+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:48:49.358+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T10:48:49.389+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.132 seconds
+[2024-08-26T10:49:20.299+0000] {processor.py:186} INFO - Started process (PID=1240) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T10:49:20.301+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T10:49:20.305+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:49:20.305+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:49:20.331+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T10:49:20.390+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:49:20.389+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:49:20.428+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:49:20.427+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T10:49:20.477+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.192 seconds
+[2024-08-26T15:09:13.622+0000] {processor.py:186} INFO - Started process (PID=42) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:09:13.623+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:09:13.627+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:09:13.626+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:09:13.645+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:09:13.686+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:09:13.686+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:09:13.709+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:09:13.709+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:09:13.734+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.121 seconds
+[2024-08-26T15:09:44.568+0000] {processor.py:186} INFO - Started process (PID=107) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:09:44.570+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:09:44.574+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:09:44.574+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:09:44.596+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:09:44.629+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:09:44.629+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:09:44.652+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:09:44.651+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:09:44.678+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.119 seconds
+[2024-08-26T15:10:15.179+0000] {processor.py:186} INFO - Started process (PID=173) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:10:15.181+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:10:15.185+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:10:15.184+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:10:15.202+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:10:15.234+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:10:15.234+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:10:15.255+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:10:15.255+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:10:15.281+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.114 seconds
+[2024-08-26T15:10:45.713+0000] {processor.py:186} INFO - Started process (PID=189) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:10:45.714+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:10:45.717+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:10:45.717+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:10:45.732+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:10:45.762+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:10:45.761+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:10:45.781+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:10:45.781+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:10:45.805+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.100 seconds
+[2024-08-26T15:11:16.028+0000] {processor.py:186} INFO - Started process (PID=247) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:11:16.029+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:11:16.033+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:11:16.032+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:11:16.047+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:11:16.075+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:11:16.074+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:11:16.094+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:11:16.093+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:11:16.117+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.096 seconds
+[2024-08-26T15:11:52.962+0000] {processor.py:186} INFO - Started process (PID=313) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:11:52.963+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:11:52.966+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:11:52.966+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:11:52.983+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:11:53.012+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:11:53.012+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:11:53.030+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:11:53.030+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:11:53.054+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.102 seconds
+[2024-08-26T15:12:09.099+0000] {processor.py:186} INFO - Started process (PID=378) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:12:09.101+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:12:09.104+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:12:09.103+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:12:09.133+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:12:09.122+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul.py", line 145, in <module>
+    python_callable = _pandas_data,
+                      ^^^^^^^^^^^^
+NameError: name '_pandas_data' is not defined
+[2024-08-26T15:12:09.140+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:12:09.167+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.076 seconds
+[2024-08-26T15:12:41.203+0000] {processor.py:186} INFO - Started process (PID=395) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:12:41.204+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:12:41.207+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:12:41.207+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:12:41.226+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:12:41.218+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul.py", line 145, in <module>
+    python_callable = _pandas_data,
+                      ^^^^^^^^^^^^
+NameError: name '_pandas_data' is not defined
+[2024-08-26T15:12:41.233+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:12:41.258+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.063 seconds
+[2024-08-26T15:13:30.234+0000] {processor.py:186} INFO - Started process (PID=474) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:13:30.236+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:13:30.240+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:13:30.239+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:13:30.262+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:13:30.252+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul.py", line 145, in <module>
+    python_callable = _pandas_data,
+                      ^^^^^^^^^^^^
+NameError: name '_pandas_data' is not defined
+[2024-08-26T15:13:30.271+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:13:30.307+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.082 seconds
+[2024-08-26T15:14:07.597+0000] {processor.py:186} INFO - Started process (PID=535) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:14:07.599+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:14:07.603+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:14:07.602+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:14:07.623+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:14:07.613+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul.py", line 145, in <module>
+    python_callable = _pandas_data,
+                      ^^^^^^^^^^^^
+NameError: name '_pandas_data' is not defined
+[2024-08-26T15:14:07.630+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:14:07.659+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.071 seconds
+[2024-08-26T15:14:56.367+0000] {processor.py:186} INFO - Started process (PID=601) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:14:56.369+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:14:56.371+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:14:56.370+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:14:56.392+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:14:56.383+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul.py", line 145, in <module>
+    python_callable = _pandas_data,
+                      ^^^^^^^^^^^^
+NameError: name '_pandas_data' is not defined
+[2024-08-26T15:14:56.399+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:14:56.423+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.065 seconds
+[2024-08-26T15:15:34.639+0000] {processor.py:186} INFO - Started process (PID=674) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:15:34.641+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:15:34.644+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:15:34.644+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:15:34.677+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:15:34.665+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul.py", line 145, in <module>
+    python_callable = _pandas_data,
+                      ^^^^^^^^^^^^
+NameError: name '_pandas_data' is not defined
+[2024-08-26T15:15:34.689+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:15:34.726+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.102 seconds
+[2024-08-26T15:16:05.177+0000] {processor.py:186} INFO - Started process (PID=739) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:16:05.179+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:16:05.181+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:16:05.181+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:16:05.204+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:16:05.195+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul.py", line 145, in <module>
+    python_callable = _pandas_data,
+                      ^^^^^^^^^^^^
+NameError: name '_pandas_data' is not defined
+[2024-08-26T15:16:05.213+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:16:05.242+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.075 seconds
+[2024-08-26T15:16:35.860+0000] {processor.py:186} INFO - Started process (PID=804) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:16:35.862+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:16:35.863+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:16:35.863+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:16:35.883+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:16:35.875+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul.py", line 145, in <module>
+    python_callable = _pandas_data,
+                      ^^^^^^^^^^^^
+NameError: name '_pandas_data' is not defined
+[2024-08-26T15:16:35.890+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:16:35.911+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.058 seconds
+[2024-08-26T15:17:06.060+0000] {processor.py:186} INFO - Started process (PID=819) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:17:06.061+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:17:06.063+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:17:06.063+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:17:06.082+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:17:06.074+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul.py", line 145, in <module>
+    python_callable = _pandas_data,
+                      ^^^^^^^^^^^^
+NameError: name '_pandas_data' is not defined
+[2024-08-26T15:17:06.089+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:17:06.112+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.060 seconds
+[2024-08-26T15:17:42.248+0000] {processor.py:186} INFO - Started process (PID=880) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:17:42.250+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:17:42.251+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:17:42.251+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:17:42.268+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:17:42.261+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul.py", line 145, in <module>
+    python_callable = _pandas_data,
+                      ^^^^^^^^^^^^
+NameError: name '_pandas_data' is not defined
+[2024-08-26T15:17:42.274+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:17:42.295+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.054 seconds
+[2024-08-26T15:18:12.344+0000] {processor.py:186} INFO - Started process (PID=944) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:18:12.345+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:18:12.347+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:18:12.346+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:18:12.366+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:18:12.358+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul.py", line 145, in <module>
+    python_callable = _pandas_data,
+                      ^^^^^^^^^^^^
+NameError: name '_pandas_data' is not defined
+[2024-08-26T15:18:12.373+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:18:12.395+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.059 seconds
+[2024-08-26T15:18:42.485+0000] {processor.py:186} INFO - Started process (PID=1009) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:18:42.486+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:18:42.488+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:18:42.488+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:18:42.508+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:18:42.501+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul.py", line 145, in <module>
+    python_callable = _pandas_data,
+                      ^^^^^^^^^^^^
+NameError: name '_pandas_data' is not defined
+[2024-08-26T15:18:42.515+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:18:42.537+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.060 seconds
+[2024-08-26T15:19:12.747+0000] {processor.py:186} INFO - Started process (PID=1075) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:19:12.749+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:19:12.751+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:19:12.751+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:19:12.770+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:19:12.763+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul.py", line 145, in <module>
+    python_callable = _pandas_data,
+                      ^^^^^^^^^^^^
+NameError: name '_pandas_data' is not defined
+[2024-08-26T15:19:12.777+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:19:12.799+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.061 seconds
+[2024-08-26T15:19:44.072+0000] {processor.py:186} INFO - Started process (PID=1141) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:19:44.073+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:19:44.075+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:19:44.074+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:19:44.092+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:19:44.085+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul.py", line 145, in <module>
+    python_callable = _pandas_data,
+                      ^^^^^^^^^^^^
+NameError: name '_pandas_data' is not defined
+[2024-08-26T15:19:44.099+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:19:44.123+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.059 seconds
+[2024-08-26T15:20:17.324+0000] {processor.py:186} INFO - Started process (PID=1154) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:20:17.326+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:20:17.327+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:20:17.327+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:20:17.346+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:20:17.338+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul.py", line 145, in <module>
+    python_callable = _pandas_data,
+                      ^^^^^^^^^^^^
+NameError: name '_pandas_data' is not defined
+[2024-08-26T15:20:17.353+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:20:17.378+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.062 seconds
+[2024-08-26T15:20:47.623+0000] {processor.py:186} INFO - Started process (PID=1215) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:20:47.624+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:20:47.627+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:20:47.626+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:20:47.646+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:20:47.638+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul.py", line 145, in <module>
+    python_callable = _pandas_data,
+                      ^^^^^^^^^^^^
+NameError: name '_pandas_data' is not defined
+[2024-08-26T15:20:47.653+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:20:47.678+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.064 seconds
+[2024-08-26T15:21:25.940+0000] {processor.py:186} INFO - Started process (PID=1281) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:21:25.942+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:21:25.944+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:21:25.943+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:21:25.968+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:21:26.094+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:21:26.093+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:21:26.108+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:21:26.108+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:21:26.138+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.207 seconds
+[2024-08-26T15:22:03.409+0000] {processor.py:186} INFO - Started process (PID=1353) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:22:03.410+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:22:03.413+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:22:03.412+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:22:03.430+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:22:03.464+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:22:03.464+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:22:03.487+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:22:03.486+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:22:03.512+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.113 seconds
+[2024-08-26T15:22:46.048+0000] {processor.py:186} INFO - Started process (PID=1419) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:22:46.053+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:22:46.059+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:22:46.058+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:22:46.118+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:22:46.272+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:22:46.270+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:22:46.412+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:22:46.411+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:22:46.519+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.501 seconds
+[2024-08-26T15:23:45.001+0000] {processor.py:186} INFO - Started process (PID=1491) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:23:45.003+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:23:45.005+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:23:45.004+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:23:45.022+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:23:45.054+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:23:45.053+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:23:45.072+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:23:45.072+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:23:45.093+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.101 seconds
+[2024-08-26T15:24:21.320+0000] {processor.py:186} INFO - Started process (PID=1557) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:24:21.321+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:24:21.323+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:24:21.323+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:24:21.337+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:24:21.365+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:24:21.365+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:24:21.383+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:24:21.382+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:24:21.403+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.091 seconds
+[2024-08-26T15:24:51.936+0000] {processor.py:186} INFO - Started process (PID=1623) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:24:51.938+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:24:51.939+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:24:51.939+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:24:51.954+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:24:51.986+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:24:51.985+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:24:52.004+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:24:52.004+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:24:52.027+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.099 seconds
+[2024-08-26T15:25:23.035+0000] {processor.py:186} INFO - Started process (PID=1688) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:25:23.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:25:23.039+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:25:23.038+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:25:23.053+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:25:23.084+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:25:23.084+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:25:23.104+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:25:23.104+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:25:23.126+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.100 seconds
+[2024-08-26T15:25:53.257+0000] {processor.py:186} INFO - Started process (PID=1754) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:25:53.260+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:25:53.263+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:25:53.262+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:25:53.288+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:25:53.328+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:25:53.328+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:25:53.354+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:25:53.354+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:25:53.385+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.142 seconds
+[2024-08-26T15:26:52.403+0000] {processor.py:186} INFO - Started process (PID=1771) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:26:52.410+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:26:52.420+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:26:52.418+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:26:52.493+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:26:52.682+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:26:52.679+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:26:52.825+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:26:52.822+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:26:52.988+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.646 seconds
+[2024-08-26T15:27:42.923+0000] {processor.py:186} INFO - Started process (PID=1844) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:27:42.926+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:27:42.930+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:27:42.929+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:27:42.970+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:27:43.065+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:27:43.064+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:27:43.135+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:27:43.134+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:27:43.201+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.296 seconds
+[2024-08-26T15:28:13.565+0000] {processor.py:186} INFO - Started process (PID=1908) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:28:13.568+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:28:13.573+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:28:13.572+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:28:13.612+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:28:13.687+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:28:13.687+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:28:13.738+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:28:13.738+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:28:13.806+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.261 seconds
+[2024-08-26T15:29:10.969+0000] {processor.py:186} INFO - Started process (PID=1980) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:29:10.971+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:29:10.975+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:29:10.974+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:29:11.460+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:29:11.513+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:29:11.512+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:29:11.558+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:29:11.556+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:29:11.611+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.661 seconds
+[2024-08-26T15:29:48.054+0000] {processor.py:186} INFO - Started process (PID=2036) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:29:48.061+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:29:48.073+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:29:48.070+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:29:48.167+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:29:48.355+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:29:48.351+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:29:48.592+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:29:48.591+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:29:48.703+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.686 seconds
+[2024-08-26T15:30:43.238+0000] {processor.py:186} INFO - Started process (PID=2064) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:30:43.243+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:30:43.253+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:30:43.251+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:30:43.306+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:30:43.412+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:30:43.411+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:30:43.474+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:30:43.474+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:30:43.541+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.358 seconds
+[2024-08-26T15:31:42.777+0000] {processor.py:186} INFO - Started process (PID=2141) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:31:42.783+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:31:42.790+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:31:42.788+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:31:42.844+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:31:42.971+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:31:42.970+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:31:43.058+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:31:43.056+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:31:43.176+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.431 seconds
+[2024-08-26T15:32:45.063+0000] {processor.py:186} INFO - Started process (PID=2212) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:32:45.069+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:32:45.084+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:32:45.082+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:32:45.182+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:32:45.310+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:32:45.309+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:32:45.430+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:32:45.429+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:32:45.545+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.527 seconds
+[2024-08-26T15:33:18.659+0000] {processor.py:186} INFO - Started process (PID=2275) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:33:18.667+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:33:18.678+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:33:18.676+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:33:18.771+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:33:18.999+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:33:18.998+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:33:19.152+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:33:19.151+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:33:19.325+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.709 seconds
+[2024-08-26T15:36:51.895+0000] {processor.py:186} INFO - Started process (PID=2321) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:36:51.898+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:36:51.902+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:36:51.901+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:36:51.928+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:36:52.008+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:36:52.007+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:36:52.049+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:36:52.048+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:36:52.098+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.219 seconds
+[2024-08-26T15:39:04.618+0000] {processor.py:186} INFO - Started process (PID=2405) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:39:04.622+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:39:04.628+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:39:04.627+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:39:04.659+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:39:04.739+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:39:04.739+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:39:04.797+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:39:04.796+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:39:04.873+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.278 seconds
+[2024-08-26T15:39:58.083+0000] {processor.py:186} INFO - Started process (PID=2471) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:39:58.086+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:39:58.092+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:39:58.091+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:39:58.122+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:39:58.191+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:39:58.190+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:39:58.239+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:39:58.238+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:39:58.308+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.244 seconds
+[2024-08-26T15:40:45.987+0000] {processor.py:186} INFO - Started process (PID=2543) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:40:45.989+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:40:45.996+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:40:45.994+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:40:46.017+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:40:46.062+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:40:46.062+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:40:46.089+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:40:46.088+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:40:46.120+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.145 seconds
+[2024-08-26T15:41:17.236+0000] {processor.py:186} INFO - Started process (PID=2609) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:41:17.240+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:41:17.245+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:41:17.244+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:41:17.276+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:41:17.354+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:41:17.354+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:41:17.403+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:41:17.402+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:41:17.459+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.245 seconds
+[2024-08-26T15:41:58.831+0000] {processor.py:186} INFO - Started process (PID=2617) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:41:58.850+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:41:58.860+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:41:58.858+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:41:59.009+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:41:59.728+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:41:59.727+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:42:00.060+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:42:00.058+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:42:00.573+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 1.835 seconds
+[2024-08-26T15:43:17.128+0000] {processor.py:186} INFO - Started process (PID=2638) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:43:17.133+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:43:17.140+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:43:17.138+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:43:17.171+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:43:17.254+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:43:17.253+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:43:17.304+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:43:17.304+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:43:17.382+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.280 seconds
+[2024-08-26T15:44:16.409+0000] {processor.py:186} INFO - Started process (PID=2710) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:44:16.412+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:44:16.419+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:44:16.417+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:44:16.459+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:44:16.592+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:44:16.591+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:44:16.685+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:44:16.684+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:44:16.795+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.412 seconds
+[2024-08-26T15:45:05.489+0000] {processor.py:186} INFO - Started process (PID=2782) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:45:05.491+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:45:05.493+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:45:05.493+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:45:05.508+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:45:05.544+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:45:05.544+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:45:05.566+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:45:05.566+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:45:05.594+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.115 seconds
+[2024-08-26T15:45:36.367+0000] {processor.py:186} INFO - Started process (PID=2848) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:45:36.369+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:45:36.371+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:45:36.370+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:45:36.382+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:45:36.411+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:45:36.411+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:45:36.429+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:45:36.429+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:45:36.451+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.093 seconds
+[2024-08-26T15:46:08.540+0000] {processor.py:186} INFO - Started process (PID=2914) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:46:08.562+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:46:08.572+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:46:08.570+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:46:08.616+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:46:08.727+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:46:08.726+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:46:08.802+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:46:08.801+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:46:08.921+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.437 seconds
+[2024-08-26T15:47:42.291+0000] {processor.py:186} INFO - Started process (PID=2937) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:47:42.294+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:47:42.297+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:47:42.297+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:47:42.327+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:47:42.391+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:47:42.390+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:47:42.421+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:47:42.421+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:47:42.461+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.186 seconds
+[2024-08-26T15:48:28.650+0000] {processor.py:186} INFO - Started process (PID=3003) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:48:28.655+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:48:28.660+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:48:28.659+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:48:28.700+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:48:29.033+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:48:29.031+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:48:29.121+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:48:29.121+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:48:29.218+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.596 seconds
+[2024-08-26T15:50:18.297+0000] {processor.py:186} INFO - Started process (PID=3030) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:50:18.301+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:50:18.306+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:50:18.304+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:50:18.335+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:50:18.423+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:50:18.422+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:50:18.468+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:50:18.467+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:50:18.527+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.250 seconds
+[2024-08-26T15:51:19.339+0000] {processor.py:186} INFO - Started process (PID=3102) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:51:19.343+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:51:19.350+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:51:19.348+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:51:19.450+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:51:19.645+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:51:19.644+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:51:19.764+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:51:19.763+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:51:19.898+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.623 seconds
+[2024-08-26T15:52:15.503+0000] {processor.py:186} INFO - Started process (PID=3174) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:52:15.505+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:52:15.507+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:52:15.507+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:52:15.523+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:52:15.562+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:52:15.562+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:52:15.586+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:52:15.586+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:52:15.617+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.126 seconds
+[2024-08-26T15:52:57.321+0000] {processor.py:186} INFO - Started process (PID=3240) to work on /opt/airflow/dags/Seoul.py
+[2024-08-26T15:52:57.326+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul.py for tasks to queue
+[2024-08-26T15:52:57.333+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:52:57.331+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:52:57.388+0000] {processor.py:925} INFO - DAG(s) 'download_air_pollution_data' retrieved from /opt/airflow/dags/Seoul.py
+[2024-08-26T15:52:57.575+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:52:57.574+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:52:57.675+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:52:57.674+0000] {dag.py:4138} INFO - Setting next_dagrun for download_air_pollution_data to None, run_after=None
+[2024-08-26T15:52:57.776+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul.py took 0.501 seconds

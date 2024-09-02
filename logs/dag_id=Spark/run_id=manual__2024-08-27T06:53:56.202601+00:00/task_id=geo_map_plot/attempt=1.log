@@ -1,0 +1,18 @@
+[2024-08-27T06:54:02.352+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-08-27T06:54:02.389+0000] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Spark.geo_map_plot manual__2024-08-27T06:53:56.202601+00:00 [queued]>
+[2024-08-27T06:54:02.403+0000] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Spark.geo_map_plot manual__2024-08-27T06:53:56.202601+00:00 [queued]>
+[2024-08-27T06:54:02.404+0000] {taskinstance.py:2856} INFO - Starting attempt 1 of 1
+[2024-08-27T06:54:02.452+0000] {taskinstance.py:2879} INFO - Executing <Task(PythonOperator): geo_map_plot> on 2024-08-27 06:53:56.202601+00:00
+[2024-08-27T06:54:02.465+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'Spark', 'geo_map_plot', 'manual__2024-08-27T06:53:56.202601+00:00', '--job-id', '279', '--raw', '--subdir', 'DAGS_FOLDER/Seoul_spark.py', '--cfg-path', '/tmp/tmp60a9atis']
+[2024-08-27T06:54:02.473+0000] {standard_task_runner.py:105} INFO - Job 279: Subtask geo_map_plot
+[2024-08-27T06:54:02.502+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=7739) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-08-27T06:54:02.505+0000] {standard_task_runner.py:72} INFO - Started process 7743 to run task
+[2024-08-27T06:54:02.585+0000] {task_command.py:467} INFO - Running <TaskInstance: Spark.geo_map_plot manual__2024-08-27T06:53:56.202601+00:00 [running]> on host 1c1d52fdfc5f
+[2024-08-27T06:54:03.169+0000] {taskinstance.py:3122} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Spark' AIRFLOW_CTX_TASK_ID='geo_map_plot' AIRFLOW_CTX_EXECUTION_DATE='2024-08-27T06:53:56.202601+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-08-27T06:53:56.202601+00:00'
+[2024-08-27T06:54:03.172+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-08-27T06:54:38.279+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-08-27T06:54:38.305+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-08-27T06:54:38.307+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=Spark, task_id=geo_map_plot, run_id=manual__2024-08-27T06:53:56.202601+00:00, execution_date=20240827T065356, start_date=20240827T065402, end_date=20240827T065438
+[2024-08-27T06:54:38.403+0000] {local_task_job_runner.py:261} INFO - Task exited with return code 0
+[2024-08-27T06:54:38.462+0000] {taskinstance.py:3891} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-08-27T06:54:38.464+0000] {local_task_job_runner.py:240} INFO - ::endgroup::

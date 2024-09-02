@@ -1,0 +1,143 @@
+[2024-08-24T10:30:05.377+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-08-24T10:30:05.402+0000] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: download_air_pollution_data.dataset2pandas manual__2024-08-24T10:29:39.548353+00:00 [queued]>
+[2024-08-24T10:30:05.415+0000] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: download_air_pollution_data.dataset2pandas manual__2024-08-24T10:29:39.548353+00:00 [queued]>
+[2024-08-24T10:30:05.416+0000] {taskinstance.py:2856} INFO - Starting attempt 1 of 1
+[2024-08-24T10:30:05.435+0000] {taskinstance.py:2879} INFO - Executing <Task(PythonOperator): dataset2pandas> on 2024-08-24 10:29:39.548353+00:00
+[2024-08-24T10:30:05.443+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1292) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-08-24T10:30:05.446+0000] {standard_task_runner.py:72} INFO - Started process 1294 to run task
+[2024-08-24T10:30:05.447+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'download_air_pollution_data', 'dataset2pandas', 'manual__2024-08-24T10:29:39.548353+00:00', '--job-id', '122', '--raw', '--subdir', 'DAGS_FOLDER/Seoul.py', '--cfg-path', '/tmp/tmp0v4q9m65']
+[2024-08-24T10:30:05.450+0000] {standard_task_runner.py:105} INFO - Job 122: Subtask dataset2pandas
+[2024-08-24T10:30:05.519+0000] {task_command.py:467} INFO - Running <TaskInstance: download_air_pollution_data.dataset2pandas manual__2024-08-24T10:29:39.548353+00:00 [running]> on host 94bdab50145e
+[2024-08-24T10:30:05.692+0000] {taskinstance.py:3122} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='download_air_pollution_data' AIRFLOW_CTX_TASK_ID='dataset2pandas' AIRFLOW_CTX_EXECUTION_DATE='2024-08-24T10:29:39.548353+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-08-24T10:29:39.548353+00:00'
+[2024-08-24T10:30:05.694+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-08-24T10:30:05.695+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-08-24T10:30:05.696+0000] {logging_mixin.py:190} INFO - Current task name:dataset2pandas state:running start_date:2024-08-24 10:30:05.403806+00:00
+[2024-08-24T10:30:05.697+0000] {logging_mixin.py:190} INFO - Dag name:download_air_pollution_data and current dag run status:running
+[2024-08-24T10:30:05.698+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-08-24T10:30:05.702+0000] {taskinstance.py:3301} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/Seoul.py", line 9, in _pandas_data
+    return pd.read_csv("data/AirPollutionSeoul/Measurement_summary.csv")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 948, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 611, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1448, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1705, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 863, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/AirPollutionSeoul/Measurement_summary.csv'
+[2024-08-24T10:30:05.728+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-08-24T10:30:05.729+0000] {logging_mixin.py:190} INFO - Task start:2024-08-24 10:30:05.403806+00:00 end:2024-08-24 10:30:05.727402+00:00 duration:0.323596
+[2024-08-24T10:30:05.730+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): dataset2pandas> dag:<DAG: download_air_pollution_data> dagrun:<DagRun download_air_pollution_data @ 2024-08-24 10:29:39.548353+00:00: manual__2024-08-24T10:29:39.548353+00:00, state:running, queued_at: 2024-08-24 10:29:39.577428+00:00. externally triggered: True>
+[2024-08-24T10:30:05.731+0000] {logging_mixin.py:190} INFO - Failure caused by [Errno 2] No such file or directory: 'data/AirPollutionSeoul/Measurement_summary.csv'
+[2024-08-24T10:30:05.731+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=download_air_pollution_data, task_id=dataset2pandas, run_id=manual__2024-08-24T10:29:39.548353+00:00, execution_date=20240824T102939, start_date=20240824T103005, end_date=20240824T103005
+[2024-08-24T10:30:05.749+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-08-24T10:30:05.750+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 122 for task dataset2pandas ([Errno 2] No such file or directory: 'data/AirPollutionSeoul/Measurement_summary.csv'; 1294)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 2995, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3149, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3173, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/Seoul.py", line 9, in _pandas_data
+    return pd.read_csv("data/AirPollutionSeoul/Measurement_summary.csv")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 948, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 611, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1448, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1705, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 863, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/AirPollutionSeoul/Measurement_summary.csv'
+[2024-08-24T10:30:05.793+0000] {local_task_job_runner.py:261} INFO - Task exited with return code 1
+[2024-08-24T10:30:05.818+0000] {taskinstance.py:3891} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-08-24T10:30:05.821+0000] {local_task_job_runner.py:240} INFO - ::endgroup::

@@ -1,0 +1,26 @@
+[2024-08-27T06:05:30.282+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-08-27T06:05:30.376+0000] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Spark.download_dataset_api manual__2024-08-27T06:05:26.196657+00:00 [queued]>
+[2024-08-27T06:05:30.413+0000] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Spark.download_dataset_api manual__2024-08-27T06:05:26.196657+00:00 [queued]>
+[2024-08-27T06:05:30.419+0000] {taskinstance.py:2856} INFO - Starting attempt 1 of 1
+[2024-08-27T06:05:30.480+0000] {taskinstance.py:2879} INFO - Executing <Task(BashOperator): download_dataset_api> on 2024-08-27 06:05:26.196657+00:00
+[2024-08-27T06:05:30.823+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=1804) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-08-27T06:05:30.818+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'Spark', 'download_dataset_api', 'manual__2024-08-27T06:05:26.196657+00:00', '--job-id', '258', '--raw', '--subdir', 'DAGS_FOLDER/Seoul_spark.py', '--cfg-path', '/tmp/tmpxvr1rwku']
+[2024-08-27T06:05:30.830+0000] {standard_task_runner.py:72} INFO - Started process 1807 to run task
+[2024-08-27T06:05:30.831+0000] {standard_task_runner.py:105} INFO - Job 258: Subtask download_dataset_api
+[2024-08-27T06:05:30.980+0000] {task_command.py:467} INFO - Running <TaskInstance: Spark.download_dataset_api manual__2024-08-27T06:05:26.196657+00:00 [running]> on host 1c1d52fdfc5f
+[2024-08-27T06:05:31.125+0000] {taskinstance.py:3122} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Spark' AIRFLOW_CTX_TASK_ID='download_dataset_api' AIRFLOW_CTX_EXECUTION_DATE='2024-08-27T06:05:26.196657+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-08-27T06:05:26.196657+00:00'
+[2024-08-27T06:05:31.127+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-08-27T06:05:31.152+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-08-27T06:05:31.154+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'kaggle datasets download -d bappekim/air-pollution-in-seoul -p /opt/***/dags --unzip']
+[2024-08-27T06:05:31.166+0000] {subprocess.py:86} INFO - Output:
+[2024-08-27T06:05:34.547+0000] {subprocess.py:93} INFO - Dataset URL: https://www.kaggle.com/datasets/bappekim/air-pollution-in-seoul
+[2024-08-27T06:05:34.549+0000] {subprocess.py:93} INFO - License(s): CC-BY-SA-4.0
+[2024-08-27T06:05:34.550+0000] {subprocess.py:93} INFO - Downloading air-pollution-in-seoul.zip to /opt/***/dags
+[2024-08-27T06:05:45.705+0000] {subprocess.py:93} INFO -   0%|          | 0.00/19.7M [00:00<?, ?B/s]  5%|▌         | 1.00M/19.7M [00:00<00:12, 1.56MB/s] 10%|█         | 2.00M/19.7M [00:01<00:08, 2.15MB/s] 15%|█▌        | 3.00M/19.7M [00:01<00:08, 2.04MB/s] 20%|██        | 4.00M/19.7M [00:01<00:07, 2.31MB/s] 25%|██▌       | 5.00M/19.7M [00:02<00:06, 2.38MB/s] 30%|███       | 6.00M/19.7M [00:03<00:07, 1.95MB/s] 36%|███▌      | 7.00M/19.7M [00:03<00:07, 1.81MB/s] 41%|████      | 8.00M/19.7M [00:04<00:06, 1.78MB/s] 46%|████▌     | 9.00M/19.7M [00:05<00:06, 1.73MB/s] 51%|█████     | 10.0M/19.7M [00:05<00:06, 1.63MB/s] 56%|█████▌    | 11.0M/19.7M [00:06<00:05, 1.75MB/s] 61%|██████    | 12.0M/19.7M [00:07<00:05, 1.57MB/s] 66%|██████▌   | 13.0M/19.7M [00:07<00:03, 1.80MB/s] 71%|███████   | 14.0M/19.7M [00:07<00:03, 1.83MB/s] 76%|███████▌  | 15.0M/19.7M [00:08<00:02, 1.79MB/s] 81%|████████▏ | 16.0M/19.7M [00:09<00:02, 1.57MB/s] 86%|████████▋ | 17.0M/19.7M [00:10<00:02, 1.39MB/s] 91%|█████████▏| 18.0M/19.7M [00:10<00:01, 1.57MB/s] 97%|█████████▋| 19.0M/19.7M [00:11<00:00, 2.08MB/s]100%|██████████| 19.7M/19.7M [00:11<00:00, 2.40MB/s]100%|██████████| 19.7M/19.7M [00:11<00:00, 1.85MB/s]
+[2024-08-27T06:05:53.463+0000] {subprocess.py:93} INFO - 
+[2024-08-27T06:05:53.660+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-08-27T06:05:53.794+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-08-27T06:05:53.796+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=Spark, task_id=download_dataset_api, run_id=manual__2024-08-27T06:05:26.196657+00:00, execution_date=20240827T060526, start_date=20240827T060530, end_date=20240827T060553
+[2024-08-27T06:05:53.872+0000] {local_task_job_runner.py:261} INFO - Task exited with return code 0
+[2024-08-27T06:05:53.983+0000] {taskinstance.py:3891} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-08-27T06:05:53.990+0000] {local_task_job_runner.py:240} INFO - ::endgroup::

@@ -1,0 +1,114 @@
+[2024-08-24T15:29:22.462+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-08-24T15:29:22.483+0000] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: download_air_pollution_data.get_seoul_api manual__2024-08-24T15:29:17.917858+00:00 [queued]>
+[2024-08-24T15:29:22.493+0000] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: download_air_pollution_data.get_seoul_api manual__2024-08-24T15:29:17.917858+00:00 [queued]>
+[2024-08-24T15:29:22.494+0000] {taskinstance.py:2856} INFO - Starting attempt 1 of 1
+[2024-08-24T15:29:22.514+0000] {taskinstance.py:2879} INFO - Executing <Task(PythonOperator): get_seoul_api> on 2024-08-24 15:29:17.917858+00:00
+[2024-08-24T15:29:22.524+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=4938) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-08-24T15:29:22.526+0000] {standard_task_runner.py:72} INFO - Started process 4944 to run task
+[2024-08-24T15:29:22.527+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'download_air_pollution_data', 'get_seoul_api', 'manual__2024-08-24T15:29:17.917858+00:00', '--job-id', '137', '--raw', '--subdir', 'DAGS_FOLDER/Seoul.py', '--cfg-path', '/tmp/tmp8fy0pykh']
+[2024-08-24T15:29:22.528+0000] {standard_task_runner.py:105} INFO - Job 137: Subtask get_seoul_api
+[2024-08-24T15:29:22.619+0000] {task_command.py:467} INFO - Running <TaskInstance: download_air_pollution_data.get_seoul_api manual__2024-08-24T15:29:17.917858+00:00 [running]> on host 94bdab50145e
+[2024-08-24T15:29:22.786+0000] {taskinstance.py:3122} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='download_air_pollution_data' AIRFLOW_CTX_TASK_ID='get_seoul_api' AIRFLOW_CTX_EXECUTION_DATE='2024-08-24T15:29:17.917858+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-08-24T15:29:17.917858+00:00'
+[2024-08-24T15:29:22.790+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-08-24T15:29:22.791+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-08-24T15:29:22.793+0000] {logging_mixin.py:190} INFO - Current task name:get_seoul_api state:running start_date:2024-08-24 15:29:22.484464+00:00
+[2024-08-24T15:29:22.793+0000] {logging_mixin.py:190} INFO - Dag name:download_air_pollution_data and current dag run status:running
+[2024-08-24T15:29:22.794+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-08-24T15:29:22.979+0000] {Seoul.py:14} INFO - {'status': 'ok', 'data': {'aqi': 93, 'idx': 5508, 'attributions': [{'url': 'https://www.airkorea.or.kr/', 'name': 'South Air Korea Environment Corporation (대기오염실시간공개시스템)', 'logo': 'SouthKorea-AirKorea.png'}, {'url': 'http://cleanair.seoul.go.kr/', 'name': 'Seoul Clean Air Pollution Information (서울특별시 기후대기환경정보)', 'logo': 'SouthKorea-Seoul.png'}, {'url': 'https://waqi.info/', 'name': 'World Air Quality Index Project'}], 'city': {'geo': [37.566535, 126.9779692], 'name': 'Seoul (서울)', 'url': 'https://aqicn.org/city/seoul', 'location': ''}, 'dominentpol': 'pm25', 'iaqi': {'co': {'v': 7.3}, 'h': {'v': 75.9}, 'no2': {'v': 17.1}, 'o3': {'v': 26.5}, 'p': {'v': 999.7}, 'pm10': {'v': 38}, 'pm25': {'v': 93}, 'r': {'v': 0.2}, 'so2': {'v': 5}, 't': {'v': 26.8}, 'w': {'v': 0.5}}, 'time': {'s': '2024-08-25 00:00:00', 'tz': '+09:00', 'v': 1724544000, 'iso': '2024-08-25T00:00:00+09:00'}, 'forecast': {'daily': {'o3': [{'avg': 18, 'day': '2024-08-23', 'max': 38, 'min': 2}, {'avg': 8, 'day': '2024-08-24', 'max': 39, 'min': 1}, {'avg': 5, 'day': '2024-08-25', 'max': 29, 'min': 1}, {'avg': 2, 'day': '2024-08-26', 'max': 14, 'min': 1}, {'avg': 6, 'day': '2024-08-27', 'max': 39, 'min': 1}, {'avg': 8, 'day': '2024-08-28', 'max': 40, 'min': 1}, {'avg': 1, 'day': '2024-08-29', 'max': 2, 'min': 1}], 'pm10': [{'avg': 56, 'day': '2024-08-23', 'max': 73, 'min': 19}, {'avg': 83, 'day': '2024-08-24', 'max': 123, 'min': 46}, {'avg': 49, 'day': '2024-08-25', 'max': 58, 'min': 44}, {'avg': 47, 'day': '2024-08-26', 'max': 49, 'min': 46}, {'avg': 37, 'day': '2024-08-27', 'max': 46, 'min': 22}, {'avg': 22, 'day': '2024-08-28', 'max': 28, 'min': 19}, {'avg': 29, 'day': '2024-08-29', 'max': 46, 'min': 19}, {'avg': 38, 'day': '2024-08-30', 'max': 46, 'min': 25}], 'pm25': [{'avg': 144, 'day': '2024-08-23', 'max': 172, 'min': 68}, {'avg': 192, 'day': '2024-08-24', 'max': 252, 'min': 138}, {'avg': 127, 'day': '2024-08-25', 'max': 157, 'min': 89}, {'avg': 125, 'day': '2024-08-26', 'max': 138, 'min': 89}, {'avg': 107, 'day': '2024-08-27', 'max': 138, 'min': 68}, {'avg': 68, 'day': '2024-08-28', 'max': 69, 'min': 68}, {'avg': 80, 'day': '2024-08-29', 'max': 101, 'min': 68}, {'avg': 111, 'day': '2024-08-30', 'max': 138, 'min': 68}], 'uvi': [{'avg': 1, 'day': '2024-08-24', 'max': 4, 'min': 0}, {'avg': 1, 'day': '2024-08-25', 'max': 6, 'min': 0}, {'avg': 1, 'day': '2024-08-26', 'max': 6, 'min': 0}, {'avg': 1, 'day': '2024-08-27', 'max': 7, 'min': 0}, {'avg': 1, 'day': '2024-08-28', 'max': 7, 'min': 0}, {'avg': 1, 'day': '2024-08-29', 'max': 2, 'min': 0}]}}, 'debug': {'sync': '2024-08-25T00:28:46+09:00'}}}
+[2024-08-24T15:29:22.982+0000] {taskinstance.py:3301} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/Seoul.py", line 15, in _get_seoul_api
+    with open("/realtime.json","a") as f :
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/realtime.json'
+[2024-08-24T15:29:23.000+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-08-24T15:29:23.001+0000] {logging_mixin.py:190} INFO - Task start:2024-08-24 15:29:22.484464+00:00 end:2024-08-24 15:29:22.998994+00:00 duration:0.51453
+[2024-08-24T15:29:23.002+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): get_seoul_api> dag:<DAG: download_air_pollution_data> dagrun:<DagRun download_air_pollution_data @ 2024-08-24 15:29:17.917858+00:00: manual__2024-08-24T15:29:17.917858+00:00, state:running, queued_at: 2024-08-24 15:29:17.975873+00:00. externally triggered: True>
+[2024-08-24T15:29:23.003+0000] {logging_mixin.py:190} INFO - Failure caused by [Errno 13] Permission denied: '/realtime.json'
+[2024-08-24T15:29:23.004+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=download_air_pollution_data, task_id=get_seoul_api, run_id=manual__2024-08-24T15:29:17.917858+00:00, execution_date=20240824T152917, start_date=20240824T152922, end_date=20240824T152922
+[2024-08-24T15:29:23.028+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-08-24T15:29:23.030+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 137 for task get_seoul_api ([Errno 13] Permission denied: '/realtime.json'; 4944)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 2995, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3149, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3173, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/Seoul.py", line 15, in _get_seoul_api
+    with open("/realtime.json","a") as f :
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/realtime.json'
+[2024-08-24T15:29:23.078+0000] {local_task_job_runner.py:261} INFO - Task exited with return code 1
+[2024-08-24T15:29:23.114+0000] {taskinstance.py:3891} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-08-24T15:29:23.119+0000] {local_task_job_runner.py:240} INFO - ::endgroup::

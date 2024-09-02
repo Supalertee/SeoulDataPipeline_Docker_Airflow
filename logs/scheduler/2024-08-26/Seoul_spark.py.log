@@ -1,0 +1,768 @@
+[2024-08-26T10:34:24.042+0000] {processor.py:186} INFO - Started process (PID=47) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:34:24.050+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:34:24.071+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:34:24.070+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:34:24.107+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:34:24.100+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul_spark.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul_spark.py", line 10, in <module>
+    from pyspark.sql.functions import col, split, trim, substring
+ModuleNotFoundError: No module named 'pyspark'
+[2024-08-26T10:34:24.109+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:34:24.204+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.189 seconds
+[2024-08-26T10:34:54.430+0000] {processor.py:186} INFO - Started process (PID=113) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:34:54.431+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:34:54.434+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:34:54.434+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:34:54.443+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:34:54.440+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul_spark.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul_spark.py", line 10, in <module>
+    from pyspark.sql.functions import col, split, trim, substring
+ModuleNotFoundError: No module named 'pyspark'
+[2024-08-26T10:34:54.444+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:34:54.463+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.040 seconds
+[2024-08-26T10:35:29.334+0000] {processor.py:186} INFO - Started process (PID=179) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:35:29.337+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:35:29.344+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:35:29.343+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:35:29.366+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:35:29.362+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul_spark.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul_spark.py", line 10, in <module>
+    from pyspark.sql.functions import col, split, trim, substring
+ModuleNotFoundError: No module named 'pyspark'
+[2024-08-26T10:35:29.368+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:35:29.394+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.070 seconds
+[2024-08-26T10:37:46.980+0000] {processor.py:186} INFO - Started process (PID=42) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:37:46.982+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:37:46.988+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:37:46.987+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:37:47.003+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:37:46.998+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul_spark.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul_spark.py", line 10, in <module>
+    from pyspark.sql.functions import col, split, trim, substring
+ModuleNotFoundError: No module named 'pyspark'
+[2024-08-26T10:37:47.005+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:37:47.049+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.078 seconds
+[2024-08-26T10:38:17.861+0000] {processor.py:186} INFO - Started process (PID=107) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:38:17.862+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:38:17.865+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:38:17.865+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:38:17.876+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:38:17.873+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul_spark.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul_spark.py", line 10, in <module>
+    from pyspark.sql.functions import col, split, trim, substring
+ModuleNotFoundError: No module named 'pyspark'
+[2024-08-26T10:38:17.877+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:38:17.903+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.050 seconds
+[2024-08-26T10:38:48.312+0000] {processor.py:186} INFO - Started process (PID=173) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:38:48.313+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:38:48.317+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:38:48.316+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:38:48.326+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:38:48.324+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul_spark.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul_spark.py", line 10, in <module>
+    from pyspark.sql.functions import col, split, trim, substring
+ModuleNotFoundError: No module named 'pyspark'
+[2024-08-26T10:38:48.327+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:38:48.352+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.047 seconds
+[2024-08-26T10:39:24.149+0000] {processor.py:186} INFO - Started process (PID=239) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:39:24.150+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:39:24.154+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:39:24.153+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:39:24.164+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:39:24.161+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul_spark.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul_spark.py", line 10, in <module>
+    from pyspark.sql.functions import col, split, trim, substring
+ModuleNotFoundError: No module named 'pyspark'
+[2024-08-26T10:39:24.165+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:39:24.191+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.051 seconds
+[2024-08-26T10:39:41.327+0000] {processor.py:186} INFO - Started process (PID=246) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:39:41.328+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:39:41.332+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:39:41.332+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:39:41.351+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:39:41.349+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul_spark.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul_spark.py", line 10, in <module>
+    from pyspark.sql.functions import col, split, trim, substring
+ModuleNotFoundError: No module named 'pyspark'
+[2024-08-26T10:39:41.352+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:39:41.378+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.059 seconds
+[2024-08-26T10:39:58.847+0000] {processor.py:186} INFO - Started process (PID=262) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:39:58.852+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:39:58.856+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:39:58.855+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:39:58.875+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:39:58.872+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul_spark.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul_spark.py", line 10, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-08-26T10:39:58.877+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:39:58.918+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.080 seconds
+[2024-08-26T10:40:03.903+0000] {processor.py:186} INFO - Started process (PID=313) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:40:03.905+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:40:03.910+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:40:03.910+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:40:03.926+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:40:03.924+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul_spark.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul_spark.py", line 10, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-08-26T10:40:03.927+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:40:03.956+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.065 seconds
+[2024-08-26T10:40:12.994+0000] {processor.py:186} INFO - Started process (PID=314) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:40:12.995+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:40:12.999+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:40:12.998+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:40:13.014+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:40:13.012+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul_spark.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul_spark.py", line 10, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-08-26T10:40:13.016+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:40:13.041+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.055 seconds
+[2024-08-26T10:40:41.830+0000] {processor.py:186} INFO - Started process (PID=327) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:40:41.832+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:40:41.835+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:40:41.835+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:40:41.853+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:40:41.851+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul_spark.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul_spark.py", line 10, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-08-26T10:40:41.854+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:40:41.881+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.059 seconds
+[2024-08-26T10:41:00.346+0000] {processor.py:186} INFO - Started process (PID=387) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:41:00.347+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:41:00.350+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:41:00.350+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:41:00.368+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:41:00.366+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul_spark.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul_spark.py", line 10, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-08-26T10:41:00.369+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:41:00.397+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.060 seconds
+[2024-08-26T10:41:30.508+0000] {processor.py:186} INFO - Started process (PID=453) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:41:30.509+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:41:30.513+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:41:30.513+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:41:30.524+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:41:30.521+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul_spark.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul_spark.py", line 10, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-08-26T10:41:30.525+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:41:30.554+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.055 seconds
+[2024-08-26T10:42:10.285+0000] {processor.py:186} INFO - Started process (PID=518) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:42:10.296+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:42:10.304+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:42:10.303+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:42:10.339+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:42:10.330+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul_spark.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul_spark.py", line 10, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-08-26T10:42:10.345+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:42:10.388+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.115 seconds
+[2024-08-26T10:42:53.278+0000] {processor.py:186} INFO - Started process (PID=556) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:42:53.281+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:42:53.283+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:42:53.283+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:42:53.296+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:42:53.293+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul_spark.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul_spark.py", line 10, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-08-26T10:42:53.298+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:42:53.325+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.056 seconds
+[2024-08-26T10:43:32.396+0000] {processor.py:186} INFO - Started process (PID=603) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:43:32.399+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:43:32.402+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:43:32.401+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:43:32.421+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:43:32.415+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul_spark.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul_spark.py", line 10, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-08-26T10:43:32.423+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:43:32.460+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.074 seconds
+[2024-08-26T10:44:02.756+0000] {processor.py:186} INFO - Started process (PID=664) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:44:02.758+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:44:02.760+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:44:02.760+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:44:02.772+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:44:02.770+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul_spark.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul_spark.py", line 10, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-08-26T10:44:02.774+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:44:02.804+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.057 seconds
+[2024-08-26T10:44:18.218+0000] {processor.py:186} INFO - Started process (PID=730) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:44:18.220+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:44:18.222+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:44:18.221+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:44:18.251+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:44:18.240+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Seoul_spark.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Seoul_spark.py", line 173, in <module>
+    python_callable = _get_seoul_api,
+                      ^^^^^^^^^^^^^^
+NameError: name '_get_seoul_api' is not defined
+[2024-08-26T10:44:18.261+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:44:18.285+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.075 seconds
+[2024-08-26T10:44:50.406+0000] {processor.py:186} INFO - Started process (PID=745) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:44:50.407+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:44:50.409+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:44:50.409+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:44:50.431+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:44:50.687+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:44:50.686+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:Spark
+[2024-08-26T10:44:50.707+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:44:50.707+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:Spark
+[2024-08-26T10:44:50.724+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:44:50.723+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:Spark
+[2024-08-26T10:44:50.726+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:44:50.726+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:44:50.828+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:44:50.828+0000] {dag.py:3234} INFO - Creating ORM DAG for Spark
+[2024-08-26T10:44:50.829+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:44:50.829+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T10:44:50.868+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.470 seconds
+[2024-08-26T10:44:55.703+0000] {processor.py:186} INFO - Started process (PID=797) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:44:55.704+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:44:55.707+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:44:55.706+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:44:55.738+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:44:55.761+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:44:55.761+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:44:55.784+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:44:55.784+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T10:44:55.826+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.134 seconds
+[2024-08-26T10:45:31.179+0000] {processor.py:186} INFO - Started process (PID=819) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:45:31.181+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:45:31.183+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:45:31.182+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:45:31.203+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:45:31.239+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:45:31.239+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:45:31.264+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:45:31.263+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T10:45:31.296+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.127 seconds
+[2024-08-26T10:46:01.488+0000] {processor.py:186} INFO - Started process (PID=878) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:46:01.491+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:46:01.494+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:46:01.494+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:46:01.513+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:46:01.551+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:46:01.551+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:46:01.573+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:46:01.573+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T10:46:01.599+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.124 seconds
+[2024-08-26T10:46:21.393+0000] {processor.py:186} INFO - Started process (PID=944) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:46:21.394+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:46:21.396+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:46:21.396+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:46:21.419+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:46:21.449+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:46:21.448+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:46:21.468+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:46:21.467+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T10:46:21.503+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.118 seconds
+[2024-08-26T10:46:54.277+0000] {processor.py:186} INFO - Started process (PID=1010) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:46:54.279+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:46:54.282+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:46:54.281+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:46:54.316+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:46:54.382+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:46:54.381+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:46:54.425+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:46:54.424+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T10:46:54.465+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.201 seconds
+[2024-08-26T10:46:57.602+0000] {processor.py:186} INFO - Started process (PID=1011) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:46:57.605+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:46:57.608+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:46:57.607+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:46:57.626+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:46:57.713+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:46:57.713+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:46:57.887+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:46:57.886+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T10:46:57.944+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.371 seconds
+[2024-08-26T10:47:39.535+0000] {processor.py:186} INFO - Started process (PID=1037) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:47:39.537+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:47:39.540+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:47:39.539+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:47:39.563+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:47:39.603+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:47:39.602+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:47:39.629+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:47:39.628+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T10:47:39.660+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.135 seconds
+[2024-08-26T10:48:10.338+0000] {processor.py:186} INFO - Started process (PID=1099) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:48:10.340+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:48:10.342+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:48:10.342+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:48:10.360+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:48:10.394+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:48:10.394+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:48:10.415+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:48:10.414+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T10:48:10.439+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.109 seconds
+[2024-08-26T10:48:24.251+0000] {processor.py:186} INFO - Started process (PID=1159) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:48:24.253+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:48:24.255+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:48:24.254+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:48:24.277+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:48:24.312+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:48:24.312+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:48:24.332+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:48:24.332+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T10:48:24.359+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.116 seconds
+[2024-08-26T10:48:29.439+0000] {processor.py:186} INFO - Started process (PID=1160) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:48:29.442+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:48:29.446+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:48:29.444+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:48:29.562+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:48:29.609+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:48:29.608+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:48:29.632+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:48:29.631+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T10:48:29.706+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.343 seconds
+[2024-08-26T10:49:01.312+0000] {processor.py:186} INFO - Started process (PID=1178) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:49:01.316+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:49:01.321+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:49:01.321+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:49:01.355+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:49:01.440+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:49:01.440+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:49:01.477+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:49:01.477+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T10:49:01.516+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.222 seconds
+[2024-08-26T10:49:41.286+0000] {processor.py:186} INFO - Started process (PID=1249) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:49:41.288+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T10:49:41.290+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:49:41.290+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:49:41.307+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T10:49:41.339+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:49:41.338+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T10:49:41.364+0000] {logging_mixin.py:190} INFO - [2024-08-26T10:49:41.364+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T10:49:41.391+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.113 seconds
+[2024-08-26T15:09:13.610+0000] {processor.py:186} INFO - Started process (PID=41) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:09:13.612+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:09:13.615+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:09:13.615+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:09:13.640+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:09:13.685+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:09:13.685+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:09:13.709+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:09:13.709+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:09:13.735+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.133 seconds
+[2024-08-26T15:09:53.682+0000] {processor.py:186} INFO - Started process (PID=108) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:09:53.683+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:09:53.687+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:09:53.686+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:09:53.703+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:09:53.732+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:09:53.732+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:09:53.751+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:09:53.751+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:09:53.775+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.101 seconds
+[2024-08-26T15:10:37.477+0000] {processor.py:186} INFO - Started process (PID=180) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:10:37.480+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:10:37.484+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:10:37.483+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:10:37.501+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:10:37.529+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:10:37.529+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:10:37.549+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:10:37.548+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:10:37.573+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.112 seconds
+[2024-08-26T15:11:16.017+0000] {processor.py:186} INFO - Started process (PID=246) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:11:16.018+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:11:16.021+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:11:16.021+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:11:16.036+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:11:16.065+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:11:16.065+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:11:16.084+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:11:16.084+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:11:16.107+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.098 seconds
+[2024-08-26T15:11:46.869+0000] {processor.py:186} INFO - Started process (PID=312) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:11:46.870+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:11:46.873+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:11:46.873+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:11:46.890+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:11:46.922+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:11:46.922+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:11:46.948+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:11:46.948+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:11:46.978+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.118 seconds
+[2024-08-26T15:12:17.553+0000] {processor.py:186} INFO - Started process (PID=379) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:12:17.556+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:12:17.570+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:12:17.569+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:12:17.591+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:12:17.630+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:12:17.630+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:12:17.659+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:12:17.659+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:12:17.688+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.147 seconds
+[2024-08-26T15:12:47.993+0000] {processor.py:186} INFO - Started process (PID=445) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:12:47.995+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:12:47.998+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:12:47.998+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:12:48.014+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:12:48.042+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:12:48.042+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:12:48.063+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:12:48.063+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:12:48.089+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.104 seconds
+[2024-08-26T15:12:52.083+0000] {processor.py:186} INFO - Started process (PID=446) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:12:52.085+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:12:52.089+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:12:52.088+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:12:52.118+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:12:52.188+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:12:52.188+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:12:52.208+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:12:52.208+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:12:52.237+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.167 seconds
+[2024-08-26T15:13:03.802+0000] {processor.py:186} INFO - Started process (PID=453) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:13:03.804+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:13:03.814+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:13:03.813+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:13:03.842+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:13:03.905+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:13:03.905+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:13:03.947+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:13:03.946+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:13:03.985+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.209 seconds
+[2024-08-26T15:13:38.430+0000] {processor.py:186} INFO - Started process (PID=528) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:13:38.433+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:13:38.437+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:13:38.436+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:13:38.454+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:13:38.485+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:13:38.485+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:13:38.507+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:13:38.506+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:13:38.531+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.110 seconds
+[2024-08-26T15:14:31.370+0000] {processor.py:186} INFO - Started process (PID=588) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:14:31.371+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:14:31.373+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:14:31.373+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:14:31.388+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:14:31.419+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:14:31.419+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:14:31.439+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:14:31.439+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:14:31.465+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.104 seconds
+[2024-08-26T15:15:04.212+0000] {processor.py:186} INFO - Started process (PID=611) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:15:04.213+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:15:04.215+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:15:04.215+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:15:04.230+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:15:04.261+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:15:04.260+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:15:04.281+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:15:04.281+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:15:04.323+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.119 seconds
+[2024-08-26T15:15:34.615+0000] {processor.py:186} INFO - Started process (PID=673) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:15:34.618+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:15:34.623+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:15:34.622+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:15:34.649+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:15:34.701+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:15:34.700+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:15:34.733+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:15:34.732+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:15:34.772+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.172 seconds
+[2024-08-26T15:16:20.356+0000] {processor.py:186} INFO - Started process (PID=740) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:16:20.357+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:16:20.359+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:16:20.358+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:16:20.374+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:16:20.404+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:16:20.404+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:16:20.422+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:16:20.421+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:16:20.444+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.096 seconds
+[2024-08-26T15:16:58.250+0000] {processor.py:186} INFO - Started process (PID=805) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:16:58.251+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:16:58.254+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:16:58.253+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:16:58.270+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:16:58.301+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:16:58.300+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:16:58.319+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:16:58.319+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:16:58.343+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.101 seconds
+[2024-08-26T15:17:35.699+0000] {processor.py:186} INFO - Started process (PID=877) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:17:35.701+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:17:35.703+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:17:35.702+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:17:35.717+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:17:35.747+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:17:35.747+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:17:35.766+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:17:35.766+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:17:35.788+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.096 seconds
+[2024-08-26T15:18:12.340+0000] {processor.py:186} INFO - Started process (PID=943) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:18:12.342+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:18:12.344+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:18:12.343+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:18:12.361+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:18:12.394+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:18:12.393+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:18:12.413+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:18:12.413+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:18:12.439+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.112 seconds
+[2024-08-26T15:18:49.588+0000] {processor.py:186} INFO - Started process (PID=1010) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:18:49.590+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:18:49.592+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:18:49.592+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:18:49.608+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:18:49.638+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:18:49.637+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:18:49.659+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:18:49.658+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:18:49.680+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.101 seconds
+[2024-08-26T15:19:26.909+0000] {processor.py:186} INFO - Started process (PID=1076) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:19:26.911+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:19:26.912+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:19:26.912+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:19:26.926+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:19:26.955+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:19:26.955+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:19:26.972+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:19:26.972+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:19:26.992+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.090 seconds
+[2024-08-26T15:19:57.200+0000] {processor.py:186} INFO - Started process (PID=1142) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:19:57.201+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:19:57.203+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:19:57.203+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:19:57.218+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:19:57.248+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:19:57.247+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:19:57.266+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:19:57.266+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:19:57.288+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.095 seconds
+[2024-08-26T15:20:27.425+0000] {processor.py:186} INFO - Started process (PID=1208) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:20:27.426+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:20:27.428+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:20:27.427+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:20:27.441+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:20:27.471+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:20:27.471+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:20:27.490+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:20:27.489+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:20:27.513+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.096 seconds
+[2024-08-26T15:21:00.690+0000] {processor.py:186} INFO - Started process (PID=1280) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:21:00.692+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:21:00.694+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:21:00.694+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:21:00.709+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:21:00.742+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:21:00.742+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:21:00.765+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:21:00.765+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:21:00.794+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.112 seconds
+[2024-08-26T15:21:33.428+0000] {processor.py:186} INFO - Started process (PID=1295) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:21:33.429+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:21:33.431+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:21:33.431+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:21:33.446+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:21:33.476+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:21:33.476+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:21:33.496+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:21:33.496+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:21:33.521+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.101 seconds
+[2024-08-26T15:22:16.448+0000] {processor.py:186} INFO - Started process (PID=1359) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:22:16.451+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:22:16.454+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:22:16.453+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:22:16.482+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:22:16.538+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:22:16.538+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:22:16.575+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:22:16.575+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:22:16.618+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.184 seconds
+[2024-08-26T15:23:14.962+0000] {processor.py:186} INFO - Started process (PID=1428) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:23:14.965+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:23:14.968+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:23:14.967+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:23:14.997+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:23:15.058+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:23:15.057+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:23:15.094+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:23:15.094+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:23:15.134+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.188 seconds
+[2024-08-26T15:23:51.429+0000] {processor.py:186} INFO - Started process (PID=1494) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:23:51.430+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:23:51.433+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:23:51.432+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:23:51.446+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:23:51.475+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:23:51.474+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:23:51.493+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:23:51.493+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:23:51.514+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.093 seconds
+[2024-08-26T15:24:21.554+0000] {processor.py:186} INFO - Started process (PID=1559) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:24:21.555+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:24:21.557+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:24:21.557+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:24:21.570+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:24:21.602+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:24:21.601+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:24:21.625+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:24:21.624+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:24:21.648+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.102 seconds
+[2024-08-26T15:24:58.039+0000] {processor.py:186} INFO - Started process (PID=1625) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:24:58.040+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:24:58.042+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:24:58.042+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:24:58.058+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:24:58.088+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:24:58.087+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:24:58.106+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:24:58.106+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:24:58.127+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.097 seconds
+[2024-08-26T15:25:35.169+0000] {processor.py:186} INFO - Started process (PID=1696) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:25:35.170+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:25:35.173+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:25:35.172+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:25:35.189+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:25:35.222+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:25:35.221+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:25:35.242+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:25:35.241+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:25:35.266+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.106 seconds
+[2024-08-26T15:26:16.740+0000] {processor.py:186} INFO - Started process (PID=1762) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:26:16.743+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:26:16.747+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:26:16.746+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:26:16.780+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:26:16.842+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:26:16.842+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:26:16.885+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:26:16.884+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:26:16.936+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.213 seconds
+[2024-08-26T15:27:21.582+0000] {processor.py:186} INFO - Started process (PID=1834) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:27:21.586+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:27:21.593+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:27:21.591+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:27:21.646+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:27:21.742+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:27:21.741+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:27:21.785+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:27:21.784+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:27:21.831+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.275 seconds
+[2024-08-26T15:27:58.831+0000] {processor.py:186} INFO - Started process (PID=1892) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:27:58.835+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:27:58.840+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:27:58.839+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:27:58.892+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:27:58.996+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:27:58.996+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:27:59.091+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:27:59.090+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:27:59.177+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.379 seconds
+[2024-08-26T15:28:39.827+0000] {processor.py:186} INFO - Started process (PID=1962) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:28:39.840+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:28:39.853+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:28:39.850+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:28:40.052+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:28:40.105+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:28:40.105+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:28:40.553+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:28:40.552+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:28:40.589+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.833 seconds
+[2024-08-26T15:29:11.489+0000] {processor.py:186} INFO - Started process (PID=1981) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:29:11.491+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:29:11.495+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:29:11.494+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:29:11.526+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:29:11.593+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:29:11.592+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:29:11.668+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:29:11.667+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:29:11.741+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.268 seconds
+[2024-08-26T15:30:00.246+0000] {processor.py:186} INFO - Started process (PID=2047) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:30:00.251+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:30:00.258+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:30:00.256+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:30:00.311+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:30:00.425+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:30:00.424+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:30:00.491+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:30:00.490+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:30:00.571+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.353 seconds
+[2024-08-26T15:30:43.113+0000] {processor.py:186} INFO - Started process (PID=2063) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:30:43.118+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:30:43.122+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:30:43.121+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:30:43.204+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:30:43.325+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:30:43.324+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:30:43.397+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:30:43.396+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:30:43.481+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.410 seconds
+[2024-08-26T15:31:06.127+0000] {processor.py:186} INFO - Started process (PID=2127) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:31:06.130+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:31:06.134+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:31:06.133+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:31:06.186+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:31:06.566+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:31:06.565+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:31:06.605+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:31:06.604+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:31:06.667+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.559 seconds
+[2024-08-26T15:31:13.302+0000] {processor.py:186} INFO - Started process (PID=2128) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:31:13.305+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:31:13.308+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:31:13.307+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:31:13.340+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:31:13.381+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:31:13.380+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:31:13.446+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:31:13.445+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:31:13.684+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.402 seconds
+[2024-08-26T15:32:12.731+0000] {processor.py:186} INFO - Started process (PID=2204) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:32:12.735+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:32:12.739+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:32:12.738+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:32:12.780+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:32:12.856+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:32:12.856+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:32:12.905+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:32:12.904+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:32:12.966+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.257 seconds
+[2024-08-26T15:33:18.484+0000] {processor.py:186} INFO - Started process (PID=2274) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:33:18.490+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:33:18.500+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:33:18.499+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:33:18.586+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:33:18.736+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:33:18.735+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:33:18.886+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:33:18.885+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:33:19.104+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.668 seconds
+[2024-08-26T15:36:51.869+0000] {processor.py:186} INFO - Started process (PID=2320) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:36:51.872+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:36:51.878+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:36:51.876+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:36:51.910+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:36:52.008+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:36:52.007+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:36:52.049+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:36:52.048+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:36:52.098+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.248 seconds
+[2024-08-26T15:39:03.918+0000] {processor.py:186} INFO - Started process (PID=2404) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:39:03.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:39:03.930+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:39:03.929+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:39:03.961+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:39:04.319+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:39:04.317+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:39:04.443+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:39:04.443+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:39:04.513+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.622 seconds
+[2024-08-26T15:39:36.552+0000] {processor.py:186} INFO - Started process (PID=2470) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:39:36.554+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:39:36.559+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:39:36.558+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:39:36.581+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:39:36.633+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:39:36.632+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:39:36.665+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:39:36.664+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:39:36.700+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.165 seconds
+[2024-08-26T15:40:16.262+0000] {processor.py:186} INFO - Started process (PID=2480) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:40:16.265+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:40:16.269+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:40:16.268+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:40:16.292+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:40:16.348+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:40:16.348+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:40:16.384+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:40:16.384+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:40:16.429+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.183 seconds
+[2024-08-26T15:40:47.087+0000] {processor.py:186} INFO - Started process (PID=2544) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:40:47.090+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:40:47.094+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:40:47.094+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:40:47.123+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:40:47.203+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:40:47.202+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:40:47.340+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:40:47.340+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:40:47.508+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.443 seconds
+[2024-08-26T15:41:58.723+0000] {processor.py:186} INFO - Started process (PID=2616) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:41:58.740+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:41:58.748+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:41:58.747+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:41:58.922+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:41:59.567+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:41:59.549+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:42:00.007+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:41:59.993+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:42:00.633+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 2.001 seconds
+[2024-08-26T15:43:17.085+0000] {processor.py:186} INFO - Started process (PID=2637) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:43:17.090+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:43:17.097+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:43:17.095+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:43:17.145+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:43:17.254+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:43:17.253+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:43:17.304+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:43:17.303+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:43:17.370+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.308 seconds
+[2024-08-26T15:44:05.162+0000] {processor.py:186} INFO - Started process (PID=2709) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:44:05.165+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:44:05.170+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:44:05.169+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:44:05.202+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:44:05.280+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:44:05.280+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:44:05.329+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:44:05.328+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:44:05.385+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.248 seconds
+[2024-08-26T15:44:35.654+0000] {processor.py:186} INFO - Started process (PID=2719) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:44:35.656+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:44:35.660+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:44:35.659+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:44:35.682+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:44:35.738+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:44:35.737+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:44:35.771+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:44:35.771+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:44:35.812+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.174 seconds
+[2024-08-26T15:45:14.647+0000] {processor.py:186} INFO - Started process (PID=2785) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:45:14.649+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:45:14.651+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:45:14.651+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:45:14.664+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:45:14.699+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:45:14.699+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:45:14.720+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:45:14.720+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:45:14.748+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.110 seconds
+[2024-08-26T15:45:45.518+0000] {processor.py:186} INFO - Started process (PID=2850) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:45:45.520+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:45:45.522+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:45:45.522+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:45:45.538+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:45:45.579+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:45:45.579+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:45:45.603+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:45:45.603+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:45:45.630+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.125 seconds
+[2024-08-26T15:46:26.467+0000] {processor.py:186} INFO - Started process (PID=2916) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:46:26.498+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:46:26.548+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:46:26.533+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:46:27.003+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:46:28.840+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:46:28.839+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:46:30.042+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:46:30.024+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:46:31.042+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 4.761 seconds
+[2024-08-26T15:47:42.267+0000] {processor.py:186} INFO - Started process (PID=2936) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:47:42.269+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:47:42.274+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:47:42.273+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:47:42.302+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:47:42.375+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:47:42.375+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:47:42.407+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:47:42.406+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:47:42.444+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.202 seconds
+[2024-08-26T15:48:19.034+0000] {processor.py:186} INFO - Started process (PID=3002) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:48:19.039+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:48:19.046+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:48:19.045+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:48:19.078+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:48:19.169+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:48:19.168+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:48:19.224+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:48:19.223+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:48:19.294+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.287 seconds
+[2024-08-26T15:50:18.268+0000] {processor.py:186} INFO - Started process (PID=3029) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:50:18.273+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:50:18.278+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:50:18.277+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:50:18.311+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:50:18.405+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:50:18.405+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:50:18.451+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:50:18.451+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:50:18.509+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.260 seconds
+[2024-08-26T15:51:18.688+0000] {processor.py:186} INFO - Started process (PID=3101) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:51:18.693+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:51:18.711+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:51:18.698+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:51:18.790+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:51:19.022+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:51:19.021+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:51:19.193+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:51:19.192+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:51:19.338+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.700 seconds
+[2024-08-26T15:51:54.921+0000] {processor.py:186} INFO - Started process (PID=3163) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:51:54.924+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:51:54.927+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:51:54.926+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:51:54.947+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:51:54.999+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:51:54.999+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:51:55.033+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:51:55.032+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:51:55.072+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.166 seconds
+[2024-08-26T15:52:27.514+0000] {processor.py:186} INFO - Started process (PID=3179) to work on /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:52:27.517+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Seoul_spark.py for tasks to queue
+[2024-08-26T15:52:27.520+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:52:27.519+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:52:27.537+0000] {processor.py:925} INFO - DAG(s) 'Spark' retrieved from /opt/airflow/dags/Seoul_spark.py
+[2024-08-26T15:52:27.590+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:52:27.589+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-26T15:52:27.628+0000] {logging_mixin.py:190} INFO - [2024-08-26T15:52:27.627+0000] {dag.py:4138} INFO - Setting next_dagrun for Spark to None, run_after=None
+[2024-08-26T15:52:27.673+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Seoul_spark.py took 0.173 seconds

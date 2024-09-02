@@ -1,0 +1,36 @@
+[2024-08-24T11:14:26.998+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-08-24T11:14:27.026+0000] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: download_air_pollution_data.download_air_pollution_dataset manual__2024-08-24T11:14:23.149887+00:00 [queued]>
+[2024-08-24T11:14:27.039+0000] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: download_air_pollution_data.download_air_pollution_dataset manual__2024-08-24T11:14:23.149887+00:00 [queued]>
+[2024-08-24T11:14:27.041+0000] {taskinstance.py:2856} INFO - Starting attempt 1 of 1
+[2024-08-24T11:14:27.062+0000] {taskinstance.py:2879} INFO - Executing <Task(BashOperator): download_air_pollution_dataset> on 2024-08-24 11:14:23.149887+00:00
+[2024-08-24T11:14:27.071+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1927) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-08-24T11:14:27.074+0000] {standard_task_runner.py:72} INFO - Started process 1929 to run task
+[2024-08-24T11:14:27.075+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'download_air_pollution_data', 'download_air_pollution_dataset', 'manual__2024-08-24T11:14:23.149887+00:00', '--job-id', '129', '--raw', '--subdir', 'DAGS_FOLDER/Seoul.py', '--cfg-path', '/tmp/tmpsfzcjkfo']
+[2024-08-24T11:14:27.077+0000] {standard_task_runner.py:105} INFO - Job 129: Subtask download_air_pollution_dataset
+[2024-08-24T11:14:27.158+0000] {task_command.py:467} INFO - Running <TaskInstance: download_air_pollution_data.download_air_pollution_dataset manual__2024-08-24T11:14:23.149887+00:00 [running]> on host 94bdab50145e
+[2024-08-24T11:14:27.314+0000] {taskinstance.py:3122} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='download_air_pollution_data' AIRFLOW_CTX_TASK_ID='download_air_pollution_dataset' AIRFLOW_CTX_EXECUTION_DATE='2024-08-24T11:14:23.149887+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-08-24T11:14:23.149887+00:00'
+[2024-08-24T11:14:27.316+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-08-24T11:14:27.317+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-08-24T11:14:27.318+0000] {logging_mixin.py:190} INFO - Current task name:download_air_pollution_dataset state:running start_date:2024-08-24 11:14:27.026864+00:00
+[2024-08-24T11:14:27.319+0000] {logging_mixin.py:190} INFO - Dag name:download_air_pollution_data and current dag run status:running
+[2024-08-24T11:14:27.320+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-08-24T11:14:27.322+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-08-24T11:14:27.324+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'kaggle datasets download -d bappekim/air-pollution-in-seoul -p /data --unzip']
+[2024-08-24T11:14:27.339+0000] {subprocess.py:86} INFO - Output:
+[2024-08-24T11:14:28.947+0000] {subprocess.py:93} INFO - Dataset URL: https://www.kaggle.com/datasets/bappekim/air-pollution-in-seoul
+[2024-08-24T11:14:28.949+0000] {subprocess.py:93} INFO - License(s): CC-BY-SA-4.0
+[2024-08-24T11:14:28.951+0000] {subprocess.py:93} INFO - Downloading air-pollution-in-seoul.zip to /data
+[2024-08-24T11:14:36.191+0000] {subprocess.py:93} INFO -   0%|          | 0.00/19.7M [00:00<?, ?B/s]  5%|▌         | 1.00M/19.7M [00:00<00:09, 1.99MB/s] 10%|█         | 2.00M/19.7M [00:00<00:06, 2.88MB/s] 15%|█▌        | 3.00M/19.7M [00:01<00:05, 3.02MB/s] 20%|██        | 4.00M/19.7M [00:01<00:05, 3.09MB/s] 25%|██▌       | 5.00M/19.7M [00:01<00:04, 3.28MB/s] 30%|███       | 6.00M/19.7M [00:02<00:04, 3.30MB/s] 36%|███▌      | 7.00M/19.7M [00:02<00:04, 3.16MB/s] 41%|████      | 8.00M/19.7M [00:02<00:03, 3.10MB/s] 46%|████▌     | 9.00M/19.7M [00:03<00:03, 3.13MB/s] 51%|█████     | 10.0M/19.7M [00:03<00:03, 2.73MB/s] 56%|█████▌    | 11.0M/19.7M [00:03<00:03, 2.78MB/s] 61%|██████    | 12.0M/19.7M [00:04<00:02, 2.74MB/s] 66%|██████▌   | 13.0M/19.7M [00:04<00:02, 2.57MB/s] 71%|███████   | 14.0M/19.7M [00:05<00:02, 2.28MB/s] 76%|███████▌  | 15.0M/19.7M [00:05<00:02, 2.43MB/s] 81%|████████▏ | 16.0M/19.7M [00:06<00:01, 2.62MB/s] 86%|████████▋ | 17.0M/19.7M [00:06<00:01, 2.51MB/s] 91%|█████████▏| 18.0M/19.7M [00:06<00:00, 2.92MB/s] 97%|█████████▋| 19.0M/19.7M [00:07<00:00, 3.06MB/s]100%|██████████| 19.7M/19.7M [00:07<00:00, 3.16MB/s]100%|██████████| 19.7M/19.7M [00:07<00:00, 2.85MB/s]
+[2024-08-24T11:14:37.130+0000] {subprocess.py:93} INFO - 
+[2024-08-24T11:14:37.177+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-08-24T11:14:37.242+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-08-24T11:14:37.243+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=download_air_pollution_data, task_id=download_air_pollution_dataset, run_id=manual__2024-08-24T11:14:23.149887+00:00, execution_date=20240824T111423, start_date=20240824T111427, end_date=20240824T111437
+[2024-08-24T11:14:37.257+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-08-24T11:14:37.260+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-08-24T11:14:37.261+0000] {logging_mixin.py:190} INFO - Dag name:download_air_pollution_data queued_at:2024-08-24 11:14:23.185861+00:00
+[2024-08-24T11:14:37.261+0000] {logging_mixin.py:190} INFO - Task hostname:94bdab50145e operator:BashOperator
+[2024-08-24T11:14:37.296+0000] {local_task_job_runner.py:261} INFO - Task exited with return code 0
+[2024-08-24T11:14:37.324+0000] {taskinstance.py:3891} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-08-24T11:14:37.327+0000] {local_task_job_runner.py:240} INFO - ::endgroup::
