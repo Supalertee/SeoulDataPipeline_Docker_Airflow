@@ -290,11 +290,18 @@ with DAG(
         task_id = "start"
     )
 
-    download_dataset_api = BashOperator(
-    task_id="download_dataset_api",
+    download_dataset_pollution_api = BashOperator(
+    task_id="download_dataset_pollution_api",
     bash_command=(
        "kaggle datasets download -d bappekim/air-pollution-in-seoul -p /opt/airflow/dags --unzip"
     ),
+    )
+
+    download_dataset_bike_api = BashOperator(
+        task_id = 'download_dataset_bike_api',
+        bash_command = (
+            "kaggle datasets download -d saurabhshahane/seoul-bike-sharing-demand-prediction -p /opt/airflow/dags --unzip"
+        ) 
     )
 
     geo_map_plot = PythonOperator(
@@ -321,7 +328,8 @@ with DAG(
     )
 
 
-    start >> download_dataset_api >> spark_clean  
+    start >> download_dataset_pollution_api >> spark_clean  
+    start >> download_dataset_bike_api >> spark_clean
     spark_clean >> geo_map_plot >> stop
     spark_clean >> correlation_plot >> stop
     get_seoul_api_realtime >> stop 
